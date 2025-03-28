@@ -251,9 +251,12 @@ img{
         grid-auto-rows: 250px;
     }
 
+    .footerContactContainer{
+        padding: 3rem;
+    }
+
     .footerAboutContainer{
         padding: 3rem;
-        padding-left: 8rem;
     }
 }
 

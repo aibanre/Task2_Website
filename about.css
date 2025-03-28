@@ -71,7 +71,7 @@ a{
 }
 
 .section-two{
-    padding:4rem 10rem;
+    padding:4rem 20%;
     background-color: rgb(255, 255, 41);
 }
 
@@ -286,6 +286,10 @@ a{
 }
 
 @media (max-width:700px) {
+    .section-two{
+        padding:4rem 10%;
+    }
+
     .s3-contentHolder{
         width: 100%;
         display: grid;
@@ -301,8 +305,11 @@ a{
         grid-auto-rows: 250px;
     }
 
+    .footerContactContainer{
+        padding: 3rem;
+    }
+
     .footerAboutContainer{
         padding: 3rem;
-        padding-left: 8rem;
     }
 }

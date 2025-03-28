@@ -267,7 +267,7 @@ img{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 350px;
-        padding: 0 10rem;
+        padding: 0 10%;
         gap: 3rem;
         justify-content: space-evenly;
     }
@@ -297,8 +297,11 @@ img{
         grid-auto-rows: 250px;
     }
 
+    .footerContactContainer{
+        padding: 3rem;
+    }
+
     .footerAboutContainer{
         padding: 3rem;
-        padding-left: 8rem;
     }
 }
