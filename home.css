@@ -240,10 +240,6 @@ img{
 }
 
 @media (max-width: 500px) {
-    .navContainer{
-        display: none;
-    }
-
     .multiple{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
