@@ -152,7 +152,6 @@ a{
     padding-bottom: 1rem;
     font-family: Montserrat;
     color: rgb(255, 255, 255);
-
 }
 
 .s3-p{
@@ -213,7 +212,7 @@ a{
     mix-blend-mode: multiply;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .footerContainer{
