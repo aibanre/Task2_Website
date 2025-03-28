@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 252, 249);
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    font-family: Franklin Gothic Medium;
+    letter-spacing: 2px;
+}
+
+i{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.section-one{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(to top, black, rgba(0, 0, 0, 0.473)), url(classmate/classmate.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 100%;
+    padding: 4rem 2rem;
+}
+
+.s1-textHolder{
+    width: 500px;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.s1-h1{
+    color: white;
+    font-family: "Montserrat";
+    padding-bottom: 1rem;
+}
+
+.s1-p{
+    font-family: "Lato";
+    color: white;
+}
+
+.section-two{
+    padding: 2rem 0;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 41);
+    
+}
+.s2-h1-head{
+    font-family: "Montserrat";
+}
+
+.s2-p{
+    font-family: "Lato";
+    padding-top: 2rem;
+    color: black;
+}
+
+.s2-headerText{
+    display: flex;
+    justify-content: center;
+}
+
+.s2-textHolder{
+    width: 100%;
+    padding: 1rem 30rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.s2-contents{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2-h2{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    width: 100%;
+}
+
+.cH{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    filter: blur(2px);
+    transition: width 1.5s, height .5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    .s2-h2{
+        display: none;
+    }
+}
+
+.cH:hover{
+    width: 25%;
+    height: 380px;
+    filter: blur(0);
+    box-shadow: 1px 1px 15px;
+
+    .s2-h2{
+        display: block;
+    }
+}
+
+.s2-contentHolder1{
+    background-image: url(classmate/bebeng.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2-contentHolder2{
+    background-image: url(classmate/kirt.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2-contentHolder3{
+    background-image: url(classmate/dave.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2-contentHolder4{
+    background-image: url(classmate/macky1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2-contentHolder5{
+    background-image: url(classmate/shung1.png);
+    background-size: cover;
+    background-position: center;
+} 
+
+.s2-contentHolder6{
+    background-image: url(classmate/rico.png);
+    background-size: cover;
+    background-position: center;
+} 
+
+.s2-contentHolder7{
+    background-image: url(classmate/lawrence.png);
+    background-size: cover;
+    background-position: center;
+} 
+
+.footerContainer{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    background-color: rgb(32, 32, 32);
+}
+
+.footerAboutContainer{
+    padding: 2rem;
+    padding-right: 8rem;
+    font-size: small;
+
+    color: white;
+}
+
+.footerContactContainer{
+    padding: 3rem;
+    padding-left: 8rem;
+}
+
+.footerAboutContainer{
+    line-height: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactHolder{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.iconText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: small;
+}
+
+.footer-icons{
+    margin-top: 1rem ;
+}
+
+.footerIcon{
+    color: white;
+    margin-right: .2rem;
+    font-size: large;
+}
