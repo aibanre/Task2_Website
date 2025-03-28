@@ -56,7 +56,6 @@ a{
 }
 
 .single, .sec1-box{
-    padding: 1rem;
     overflow: hidden;
 }
 
@@ -104,6 +103,9 @@ a{
     grid-auto-rows: minmax(250px, auto);    
 }
 
+.box{
+    overflow: hidden;
+}
 .sec1-box1{
     background-image: url(school/annex.png);
     background-size: cover;
@@ -251,13 +253,7 @@ img{
         grid-auto-rows: 250px;
     }
 
-    .footerContactContainer{
-        padding: 3rem;
-    }
-
-    .footerAboutContainer{
-        padding: 3rem;
-    }
+    
 }
 
 @media (max-width:700px) {
@@ -267,8 +263,11 @@ img{
         grid-auto-rows: 250px;
     }
 
+    .footerContactContainer{
+        padding: 3rem;
+    }
+
     .footerAboutContainer{
         padding: 3rem;
-        padding-left: 8rem;
     }
 }
